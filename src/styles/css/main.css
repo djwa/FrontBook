@@ -76,7 +76,7 @@ code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
 button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0; }
 
 /** Address 'overflow' set to 'hidden' in IE 8/9/10/11. 1. Prevent bolder font rendering in Chrome. */
-button { overflow: visible; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-font-smoothing: inherit; }
+button { overflow: visible; backface-visibility: hidden; -webkit-font-smoothing: inherit; }
 
 /** Address inconsistent 'text-transform' inheritance for 'button' and 'select'. All other form control elements do not inherit 'text-transform' values. Correct 'button' style inheritance in Firefox, IE 8/9/10/11, and Opera. Correct 'select' style inheritance in Firefox. */
 button, select { text-transform: none; }

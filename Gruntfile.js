@@ -110,7 +110,8 @@ module.exports = function (grunt) {
 					content: '<%= dir.i18n %>/en.json'
 				},
 				files: {
-					'<%= dir.public %>/index.html': '<%= dir.views %>/index.html'
+					'<%= dir.public %>/index.html': '<%= dir.views %>/index.html',
+					'<%= dir.public %>/pricing.html': '<%= dir.views %>/pricing.html'
 				}
 			}
 		},
